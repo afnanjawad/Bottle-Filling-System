@@ -1,0 +1,34 @@
+Component Name,Input address,Output address,Function
+Start_PB,i0.0,,Start system
+Stop_PB,i0.1,,Stop system
+EM_PB,i0.2,,Emergency stop
+Limit switch 1,i0.3,,Detect home position of grabber
+Limit switch 2,i0.4,,Detect end position of grabber
+Motor 1,,q0.0,Run belt FWD/RWD
+Photo Sensor 3,i0.5,,Tracks grabber position across the belt
+Proximity Sensor R ,i0.6,,Detect if grabber hand is Open/Close
+Proximity Sensor L,i0.7,,
+Photo Sensor 4,i1.0,,Detect is bottle is in the grabber
+Motor 2,,q0.1,Open/close hands of the grabber
+Motor 3,,q0.2,Open/close hands of the grabber
+Motor 4,,q0.3,Open/close hands of the grabber
+Motor 5,,q0.4,Open/close hands of the grabber
+Cylinder 1,,q0.5,Push the bottle out of the grabber
+Limit switch 3,i1.1,,Detect cylinder 1 home position
+Cylinder 2,,q0.6,Push capper Motor 6 up/down
+Limit switch 4,i1.2,,Detect capper home position
+Limit switch 5,i1.3,,Detect capper end position
+Motor 6,,q0.7,Rotate cap attachment FWD
+Motor 7,,q1.0,Motor with rotating plate to dispense caps
+Photo Sensor 1,i1.4,,Detect cap flow through the neck of the cap dispenser
+Photo Sensor 2,i1.5,,Detect cap flow through the neck of the cap dispenser
+Cylinder 3,,q1.1,Pushes nozzle up/down
+Limit Switch 6,i1.6,,Detect home position of cylinder 3
+Limit Switch 7,i1.7,,Detect end position of cylinder 4
+Pump 1,,q1.2,Flow liquid into the nozzle
+Solenoid valve 1,,q1.3,compress/depress cylinder 1
+Solenoid valve 2,,q1.4,compress/depress cylinder 2
+Solenoid valve 3,,q1.5,compress/depress cylinder 3
+Compressor,,,Controls air flow to solenoid valves
+Signal Tower,,q1.6,Light
+Photo Sensor 5,I2.0,,Detect if grabber is under cap dispenser
