@@ -89,25 +89,13 @@ text
 | Emergency Stop | Hardware input cuts all outputs |
 
 ## 🚀 How to Use This Repository
-Bottle-Filling-System/
-├── README.md # You are here
-├── IO_List.md # Complete I/O mapping
-├── Sequence_of_Operations.md # Detailed step-by-step
-├── Fault_Matrix.md # Current vs planned fault handling
-├── Ladder_Logic/ # Network screenshots
-│ ├── Network_1_Start_Stop.png
-│ ├── Network_2_Grabber.png
-│ ├── Network_3_Filling.png
-│ ├── Network_4_Cap_Dispenser.png
-│ ├── Network_5_Capping.png
-│ └── Network_6_Ejection.png
-├── HMI_Screenshots/ # HMI design images
-│ ├── Main_Screen.png
-│ ├── Alarm_Screen.png
-│ └── Status_Indicators.png
-└── Project_Summary.pdf # One-page handout
+## 📚 Documentation
 
-text
+- **[Full Ladder Logic PDF](03_Documentation/Ladder_Logic.pdf)** – Complete export from TIA Portal v18 with comments
+- [I/O List](03_Documentation/I_O%20list%20for%20bottle%20filling%20conveyor%20-%20Sheet1.csv)
+- [Sequence of Operations](03_Documentation/Sequence_of_Operations.md)
+- [Fault Matrix](03_Documentation/Fault_Matrix.md)
+- [HMI Design Description](03_Documentation/HMI_Design_Description.md)
 
 ## 📈 Performance Metrics
 
