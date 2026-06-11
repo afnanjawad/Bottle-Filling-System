@@ -1,0 +1,5 @@
+Type,Tag Name,PLC Address,Description
+Input,{{INPUT_1}},{{I_ADDRESS_1}},{{DESCRIPTION_1}}
+Input,{{INPUT_2}},{{I_ADDRESS_2}},{{DESCRIPTION_2}}
+Input,{{INPUT_3}},{{I_ADDRESS_3}},{{DESCRIPTION_3}}
+Output,{{OUTPUT_1}},{{Q_ADDRESS_1}},{{DESCRIPTION_1}}
